@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Installing prerequisites..."
+brew install sdl2
+pip3 install -r requirements.txt
