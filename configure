@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# NOTE: Following is the installation of all 
+#       prerequisites which were missing from my system
+#       at the time of setting up. YMMV.
+
 echo "Installing prerequisites..."
-brew install sdl2
+brew update
+brew install sdl2 sdl_image boost boost-python libgme
 pip3 install -r requirements.txt
