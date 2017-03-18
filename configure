@@ -4,7 +4,17 @@
 #       prerequisites which were missing from my system
 #       at the time of setting up. YMMV.
 
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Installing prerequisites..."
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 brew update
-brew install sdl2 sdl_image boost boost-python libgme
+brew install sdl2 boost 
+brew install boost-python --with-python3
+brew install libjpeg --universal
+brew install libgme fluid-synth
 pip3 install -r requirements.txt
+
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo "Installing Doompy"
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+pip3 install doom_py==0.0.12
