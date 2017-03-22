@@ -4,6 +4,10 @@ Shoot em up with the power of reinforcement agent.
 
 ---
 
+![IMG](media/doom-ss-01.png)
+
+---
+
 ## Prerequisites
 
 [1] [OpenGym AI](https://gym.openai.com)
