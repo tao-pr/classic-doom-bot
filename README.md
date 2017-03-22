@@ -10,8 +10,8 @@ Shoot em up with the power of reinforcement agent.
 
 ## Prerequisites
 
-[1] [OpenGym AI](https://gym.openai.com)
-[2] [Doom Environment](https://github.com/ppaquette/gym-doom)
+  - [1] [OpenGym AI](https://gym.openai.com)
+  - [2] [Doom Environment](https://github.com/ppaquette/gym-doom)
 
 > **NOTE:** Doom Environment for Gym requires lots of 
 additional packages including pyGame. Make sure you have 
